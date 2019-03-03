@@ -1,12 +1,12 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Nav() {
-    return(
+    return (
         <nav>
             <h2>Google Books</h2>
-            <Link to="/">Search</Link>
-            <Link to="/saved">Saved</Link>
+            <Link to="/">Search Books</Link>
+            <Link to="/saved">View Saved</Link>
         </nav>
     );
 }
